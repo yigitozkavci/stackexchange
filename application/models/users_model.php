@@ -14,13 +14,14 @@ class Users_model extends CI_Model{
 
 		if($user != null){
 			$userdataarray = array(
-				'userid' => $user['id'],
+				'userid' => $user['userid'],
 				'username' => $user['username'],
 				'email'     => $user['mail']
 				);
 			$this->session->set_userdata($userdataarray);
 			return 1;
 		}else{
+			redirect('/login');
 			return 0;
 		}
 	}

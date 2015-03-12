@@ -45,6 +45,8 @@ $route['login'] = "login";
 $route['logout'] = "logout";
 $route['signup'] = "signup";
 $route['add'] = "questions/add_question";
+$route['questions'] = "questions/all_questions";
+$route['questions/user'] = "questions";
 
 
 /* End of file routes.php */
