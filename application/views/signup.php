@@ -15,7 +15,7 @@
 					<input autofocus type="varchar" name="mail" class="form-control">
 				</div>
 				<div class="form-group">
-					<input type="submit" class="form-control btn btn-primary" value="Onayla" name="signup">
+					<input type="submit" class="form-control btn btn-warning" value="Onayla" name="signup">
 				</div>
 			</form>
 		</div>

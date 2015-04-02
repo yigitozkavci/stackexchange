@@ -13,7 +13,9 @@ class Signup extends CI_Controller{
 
 	public function process(){
 		$result = $this->users_model->sign_up();
+		$this->load->view('templates/header');
 		$this->load->view('home');
+		$this->load->view('templates/footer');
 	}
 }
 ?>
