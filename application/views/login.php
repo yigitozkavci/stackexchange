@@ -25,7 +25,7 @@
                 <h1 style="font-size:20px;">Kullanıcı Girişi</h1>
             </div>
             <div class="panel-body">
-                <form method="post" action="login">
+                <form method="post" action="<?php echo base_url()?>index.php/login/process">
                     <div class="form-group text-center">
                         <label for="username">Kullanıcı Adı: </label>
                         <input class="form-control" type="text" name="username" value="" placeholder="Username or Email">
