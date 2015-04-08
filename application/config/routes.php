@@ -38,9 +38,9 @@
 |
 */
 
-$route['default_controller'] = "home";
+$route['default_controller'] = "questions/all_questions";
 $route['404_override'] = '';
-$route['home'] = "home";
+$route['home'] = "questions/all_questions";
 $route['login'] = "login";
 $route['logout'] = "logout";
 $route['signup'] = "signup";
