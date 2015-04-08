@@ -5,11 +5,7 @@ class Comments_model extends CI_Model{
 	}
 
 
-	public function add_comment(){
-		$comData['desc']=$this->input->post('desc');
-		$comData['userid']=$this->session->userdata('userid');
-		$comData['questionid']=$this->input->post('questionid');
-
+	public function add_comment($comData){
 		$this->db->insert('comments', $comData);
 
 	}

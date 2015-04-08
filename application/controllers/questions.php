@@ -3,6 +3,7 @@ class Questions extends CI_Controller{
 	public function __construct(){
 		parent::__construct();
 		$this->load->model('questions_model');
+		$this->load->model('comments_model');
 	}
 
 	public function index(){
@@ -10,6 +11,7 @@ class Questions extends CI_Controller{
 		$this->load->view('templates/header');
 		$this->load->view('user_questions', $data);
 		$this->load->view('templates/footer');
+
 	}
 
 	public function add_question(){
@@ -28,6 +30,15 @@ class Questions extends CI_Controller{
 		$this->load->view('templates/header');
 		$this->load->view('user_questions', $data);
 		$this->load->view('templates/footer');
+	}
+
+	public function show($questionid){
+		$data['comments']=$this->comments_model->get_comments($questionid);
+		$data['question']=$this->questions_model->get_question($questionid);
+		$this->load->view('templates/header');
+		$this->load->view('question', $data);
+		$this->load->view('templates/footer');
+
 	}
 }
 ?>
