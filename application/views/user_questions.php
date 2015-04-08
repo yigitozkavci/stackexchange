@@ -2,7 +2,7 @@
     <div class="col-md-3 col-md-offset-1"  style="font-size: 30px;">Top Questions</div>
     <div class="col-md-5 col-md-offset-1">
       <ul class="nav nav-tabs">
-        <li role="presentation" class="active" style="float:right"><a href="#">neweat</a></li>
+        <li role="presentation" class="active" style="float:right"><a href="#">newest</a></li>
         <li role="presentation" class="active"style="float:right"><a href="#">featured</a></li>
         <li role="presentation" class="active"style="float:right"><a href="#">frequent</a></li>
         <li role="presentation" class="active" style="float:right"><a href="#">votes</a></li>
