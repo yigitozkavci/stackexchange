@@ -27,7 +27,7 @@
         </div>
       <div class="col-md-8">
         <div class="panel-body">
-          <span style="color:blue; font-size:22">How to get the website image/logo with jsoup in Android?</span>
+          <span style="color:black; font-size:22">How to get the website image/logo with jsoup in Android?</span>
           <br>
           <span>Game Club / Büyak / Compec</span>
           <br>
@@ -58,7 +58,7 @@
         </div>
       <div class="col-md-8">
         <div class="panel-body">
-          <span style="color:blue; font-size:22"><?php echo $question['title']; ?></span>
+          <span style="color:black; font-size:22"><?php echo $question['title']; ?></span>
           <br>
           <span><?php echo $question['desc']; ?></span>
           <br>

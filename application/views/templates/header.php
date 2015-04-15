@@ -20,7 +20,7 @@ if(array_key_exists("userid", $this->session->userdata))
     <!-- AngularJS -->
     <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.2.26/angular.min.js"></script>
 </head>
-<body class="col-lg-12" style="background: #FFFCDF">
+<body class="col-lg-12">
 	<div id="wrapper">
 	<nav class="navbar navbar-default" style="background:#f0ad4e">
     <div class="container-fluid">
