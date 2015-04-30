@@ -1,7 +1,7 @@
 body, html{
 	margin: 0 !important;
 	padding:0 !important;
-	background-color: #FFFFCC;
+	background-color: #FFFFEE;
 }
 .form-control:focus {
   border-color: #e7e7e7;
@@ -11,4 +11,25 @@ body, html{
 .addwrapper{
 	margin-top: 30px;
 	margin-left: 30px;
+}
+.btn-warning{
+	border-radius: 0;
+	border-color: #f0ad4e;
+	color:rgb(22, 54, 181);
+}
+.panel-warning{
+	border-radius: 0;
+	border-color: white;
+	border: none;	
+}
+.form-control{
+	border-radius: 0;
+	resize:none;
+}
+.btn-group{
+	margin-left: 12px;
+	margin-top: 20px;
+}
+.navbar{
+	border-radius: 0;
 }
