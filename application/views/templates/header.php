@@ -80,7 +80,7 @@ if(array_key_exists("userid", $this->session->userdata))
       <button type="button" class="btn btn-warning pagebutton" onclick="window.location.href='<?php echo base_url()?>index.php/questions'">
         Quesetions
       </button>
-      <button type="button" class="btn btn-warning pagebutton">
+      <button type="button" class="btn btn-warning pagebutton" onclick="window.location.href='<?php echo base_url()?>index.php/tags'">
         Tags
       </button>
 
@@ -92,7 +92,7 @@ if(array_key_exists("userid", $this->session->userdata))
         Badgets
       </button>
 
-      <button type="button" class="btn btn-warning pagebutton">
+      <button type="button" class="btn btn-warning pagebutton" onclick="window.location.href='<?php echo base_url()?>index.php/unanswered'">
         Unanswered
       </button>
 

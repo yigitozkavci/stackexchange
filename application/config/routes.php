@@ -46,6 +46,8 @@ $route['logout'] = "logout";
 $route['signup'] = "signup";
 $route['add'] = "questions/add_question";
 $route['questions'] = "questions/all_questions";
+$route['unanswered'] = "unanswered";
+$route['tags'] = "tags";
 $route['questions/user'] = "questions";
 $route['question/(:any)'] = "questions/show/$1";
 

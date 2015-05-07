@@ -8,6 +8,7 @@ class Questions extends CI_Controller{
 
 	public function index(){
 		$data['questions'] = $this->questions_model->get_user_questions($this->session->userdata('userid'));
+		
 		$this->load->view('templates/header');
 		$this->load->view('user_questions', $data);
 		$this->load->view('templates/footer');
