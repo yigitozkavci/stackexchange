@@ -15,7 +15,23 @@ body, html{
 .btn-warning{
 	border-radius: 0;
 	border-color: #f0ad4e;
-	color:rgb(22, 54, 181);
+	color:#337ab7;
+}
+.panel-primary{
+	border-radius: 0;
+	border-color: #f0ad4e;
+}
+.panel-primary .panel-body{
+	font-size: 12px;
+}
+.panel-primary .panel-footer{
+	font-size: 10px;
+}
+
+.panel-primary .panel-heading{
+	background-color:#f0ad4e;
+	color:#337ab7;
+	border-radius: 0;
 }
 .panel-warning{
 	border-radius: 0;
