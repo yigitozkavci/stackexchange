@@ -84,7 +84,7 @@ if(array_key_exists("userid", $this->session->userdata))
         Tags
       </button>
 
-      <button type="button" class="btn btn-warning pagebutton">
+      <button type="button" class="btn btn-warning pagebutton" onclick="window.location.href='<?php echo base_url()?>index.php/users'">
         Users
       </button>
 

@@ -50,7 +50,10 @@ $route['unanswered'] = "unanswered";
 $route['tag_info'] = "tags/tag_info";
 $route['tagged'] = "tags/tagged";
 $route['tags/(:any)'] = "tags/$1";
+$route['users']="users";
 $route['questions/user'] = "questions";
+$route['user_top_posts'] = "user_top_posts";
+$route['userProfile'] = "userProfile";
 $route['question/(:any)'] = "questions/show/$1";
 
 

@@ -1,13 +1,10 @@
 <div class="row hidden-sm" style="margin-top:30px;">
-    <div class="col-md-3 col-md-offset-1"  style="font-size: 30px;">Unanswered</div>
+    <div class="col-md-3 col-md-offset-1"  style="font-size: 30px;">TopPosts</div>
     <div class="col-md-5 col-md-offset-1">
       <ul class="nav nav-tabs">
-        <li role="presentation" class="" style="float:right"><a href="#">newest</a></li>
-        <li role="presentation" class="" style="float:right"><a href="#">featured</a></li>
-        <li role="presentation" class="" style="float:right"><a href="#">frequent</a></li>
-        <li role="presentation" class="" style="float:right"><a href="#">votes</a></li>
-        <li role="presentation" class="" style="float:right"><a href="#">active</a></li>
-        <li role="presentation" class="active" style="float:right"><a href="#">unanswered</a></li>
+
+        <li role="presentation" class="active" style="float:right " onclick="window.location.href='<?php echo base_url()?>index.php/user_top_posts'"><a>Top Posts</a></li>
+        <li role="presentation" class="" style="float:right" onclick="window.location.href='<?php echo base_url()?>index.php/userProfile'"><a>Info</a></li>
       </ul>
     </div>
         <div class="row" style="margin-top:5px;">
@@ -28,7 +25,7 @@
           <br>
           <span>Game Club / Büyak / Compec</span>
           <br>
-          <span style="float:right; color:#d8d4df">asked 22 secs ago Mari_Yaguchi 115</span>
+          <span style="float:right; color:#d8d4df">asked 22 secs ago Tushar 115</span>
         </div>
       </div>
       <div class="col-md-3">
@@ -44,7 +41,7 @@
           <br>
           <span>Game Club / Compec</span>
           <br>
-          <span style="float:right; color:#d8d4df">asked 34 mins ago Takeya 115</span>
+          <span style="float:right; color:#d8d4df">asked 34 mins ago Tushar 115</span>
         </div>
       </div>
 
@@ -57,16 +54,11 @@
         </div>
       <div class="col-md-8">
         <div class="panel-body">
-          <span style="color:black; font-size:22">List view getListItemXmlAttributes method fails with child publication items</span>
+          <span style="color:black; font-size:22">Why the best club is always compeque?</span>
           <br>
-          <span>Game Club / Bumed / Compec</span>
+          <span>Compec</span>
           <br>
-          <span style="float:right; color:#d8d4df">asked 34 mins ago Takeya 115</span>
+          <span style="float:right; color:#d8d4df">asked 34 mins ago Tushar 115</span>
         </div>
       </div>
     </div></div></div></div>
-
-    
-
-
-

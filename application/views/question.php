@@ -45,16 +45,16 @@
 
 				<div class="row">
 					<div class="col-md-9 col-md-offset-1">
-						<form action=></form>
+						<form action="<?php echo base_url()?>index.php/coments/add_comment" method="post">
 						<div class="form-group">
 							<label for="title">Açıklama: </label>
 
 							<textarea autofocus type="text"  name="desc" class="form-control" rows="6"></textarea>
 						</div>
 						<div class="form-group col-lg-2" style= "float: right">
-							<input type="submit" class="form-control btn btn-warning" value="Onayla" name="add_questions">
+							<input type="submit" class="form-control btn btn-warning" value="Onayla" name="add_comment">
 						</div>
-
+						</form>
 						
 					</div>   
 				</div>
