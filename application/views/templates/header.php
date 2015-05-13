@@ -78,7 +78,7 @@ if(array_key_exists("userid", $this->session->userdata))
      <div class="col-lg-6">
       <!-- Single button -->
       <button type="button" class="btn btn-warning pagebutton" onclick="window.location.href='<?php echo base_url()?>index.php/questions'">
-        Quesetions
+        Questions
       </button>
       <button type="button" class="btn btn-warning pagebutton" onclick="window.location.href='<?php echo base_url()?>index.php/tags'">
         Tags
