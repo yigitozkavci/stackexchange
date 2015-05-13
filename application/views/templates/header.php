@@ -47,17 +47,19 @@ if(array_key_exists("userid", $this->session->userdata))
          
          
           <ul class="nav navbar-nav navbar-right">
+            <?php if($this->session->userdata('userid') == NULL){?>
             <li><a href="<?php echo base_url()?>index.php/signup">Sign Up</a></li>
 
             <li><a href="<?php echo base_url()?>index.php/login">LogIn</a></li>
+            <?php } else { ?>
             <li class="dropdown">
-              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Profile<span class="caret"></span></a>
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false"><?php echo $this->session->userdata('username');?><span class="caret"></span></a>
               <ul class="dropdown-menu" role="menu">
                 <li><a href="#">Settings</a></li>
                 <li><a href="#">Log Out</a></li>
               </ul>
             </li>
-
+            <?php } ?>
           </ul>
         </div>
         </div><!-- /.navbar-collapse -->

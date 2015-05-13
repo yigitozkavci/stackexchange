@@ -41,5 +41,12 @@ class Questions extends CI_Controller{
 		$this->load->view('templates/footer');
 
 	}
+
+	public function unanswered(){		
+		$this->load->view('templates/header');
+		$this->load->view('unanswered');
+		$this->load->view('templates/footer');
+
+	}
 }
 ?>

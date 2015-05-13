@@ -11,5 +11,16 @@ class Users extends CI_Controller{
 
 	}
 	
+	public function profile(){
+		$this->load->view('templates/header');
+		$this->load->view('userProfile');
+		$this->load->view('templates/footer');
+	}
+
+	public function top_posts(){
+		$this->load->view('templates/header');
+		$this->load->view('user_top_posts');
+		$this->load->view('templates/footer');
+	}
 }
 ?>
