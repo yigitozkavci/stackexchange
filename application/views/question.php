@@ -48,6 +48,7 @@
 						<form action="<?php echo base_url()?>index.php/comments/add_comment" method="post">
 						<div class="form-group">
 							<label for="title">Açıklama: </label>
+							<input type="hidden" name="questionid" value="<?php echo $question['id'];?>">
 							<textarea autofocus type="text"  name="desc" class="form-control" rows="6"></textarea>
 						</div>
 						<div class="form-group col-lg-2" style= "float: right">
