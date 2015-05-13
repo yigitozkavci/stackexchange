@@ -47,9 +47,9 @@ $route['signup'] = "signup";
 $route['add'] = "questions/add_question";
 $route['questions'] = "questions/all_questions";
 $route['unanswered'] = "unanswered";
-$route['tag_info'] = "tag_info";
-$route['tagged'] = "tagged";
-$route['tags'] = "tags";
+$route['tag_info'] = "tags/tag_info";
+$route['tagged'] = "tags/tagged";
+$route['tags/(:any)'] = "tags/$1";
 $route['questions/user'] = "questions";
 $route['question/(:any)'] = "questions/show/$1";
 

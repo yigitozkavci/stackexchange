@@ -29,7 +29,7 @@ class Questions_model extends CI_Model{
 	}
 
 	public function get_question($questionid){
-		$query=$this->db->get_where('comments',array('questionid'=>$questionid));
+		$query=$this->db->get_where('questions',array('id'=>$questionid));
 		return $query->row_array();
 	}
 }
